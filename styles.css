@@ -2,6 +2,8 @@
 body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
+    background-color: #000;
+    color: #fff;
 }
 
 /* Style the header with a futuristic background */
@@ -44,7 +46,8 @@ nav a {
 /* Style the About Me section */
 .about-section {
     background-color: #222; /* Slightly lighter background */
-    padding: 20px;
+    padding: 40px;
+    color: #fff;
 }
 
 .about-content {
@@ -60,7 +63,8 @@ nav a {
 /* Style the Projects section with a sci-fi touch */
 .projects-section {
     background-color: #222;
-    padding: 20px;
+    padding: 40px;
+    color: #fff;
 }
 
 .project-grid {
