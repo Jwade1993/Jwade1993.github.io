@@ -96,6 +96,8 @@ article {
     border-radius: 10px;
 }
 
+
+
 /* Style the footer with a futuristic feel */
     footer {
         background-color: #000;
@@ -112,4 +114,10 @@ article {
          background-repeat: no-repeat; /* Prevents the image from repeating */
          background-position:center center; ; /* Center the image horizontally and vertically */
 
+    }
+
+    img {
+
+        height: auto;
+        max-width: 100%;
     }
