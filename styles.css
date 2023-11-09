@@ -1,9 +1,8 @@
 /* Reset some default styles to start with a clean slate */
-body, h1, h2, h3, p, ul {
+body, h1, p, ul {
     margin: 0;
     padding: 0;
-    background-color: #000;
-    color: #fff;
+    box-sizing: border-box;
 }
 
 /* Style the header with a futuristic background */
@@ -18,6 +17,14 @@ header {
 header h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
+}
+
+h2 {
+    padding:10px;
+}
+
+h3{
+    padding:5px;
 }
 
 nav ul {
@@ -43,34 +50,42 @@ nav a {
     background-color: #111; /* Dark background to create a futuristic contrast */
 }
 
-/* Style the About Me section */
-.about-section {
-    background-color: #222; /* Slightly lighter background */
-    padding: 40px;
-    color: #fff;
+#about {
+    background-color: #222;
+    padding: 20px;
+    color: #fff; /* Silver or white text color for the About Me section */
 }
 
-.about-content {
+#about .about-content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.about-content img {
+#about img {
     max-width: 100%;
 }
 
-/* Style the Projects section with a sci-fi touch */
-.projects-section {
-    background-color: #222;
-    padding: 40px;
-    color: #fff;
+
+/* Unique styles for the Projects section */
+#projects {
+    background-color: #333;
+    padding: 20px;
+    color: #00ffcc; /* Different text color for the Projects section */
 }
 
-.project-grid {
+#projects .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
+}
+
+/* Styles for the articles within the project grid */
+#projects article {
+    background-color: #444; /* Different background color for project articles */
+    padding: 10px;
+    border: 1px solid #00ffcc;
+    border-radius: 10px;
 }
 
 /* Style the articles within the project grid */
@@ -82,10 +97,19 @@ article {
 }
 
 /* Style the footer with a futuristic feel */
-footer {
-    background-color: #000;
-    color: #00aaff;
-    text-align: center;
-    padding: 10px;
-    font-size: 14px;
-}
+    footer {
+        background-color: #000;
+        color: #00aaff;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    #about footer {
+         /* Set the background image and control its size and properties */
+        background-image: url("happy.jpeg");
+         background-size:cover; /* Scales the image to cover the entire footer */
+         background-repeat: no-repeat; /* Prevents the image from repeating */
+         background-position:center center; ; /* Center the image horizontally and vertically */
+
+    }
