@@ -121,3 +121,27 @@ article {
         height: auto;
         max-width: 100%;
     }
+
+    .project1 {
+        /* CSS styles for the special image */
+        width: 100%;
+        border: 2px solid #00f;
+        border-radius: 10px;
+        max-width: 200px;
+    }
+
+    .project2 {
+        /* CSS styles for the special image */
+        width: 100%;
+        border: 2px solid #00f;
+        border-radius: 10px;
+        max-width: 200px;
+    }
+
+    .project3 {
+        /* CSS styles for the special image */
+        width: 100%;
+        border: 2px solid #00f;
+        border-radius: 10px;
+        max-width: 200px;
+    }
